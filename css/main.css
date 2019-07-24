@@ -1,0 +1,395 @@
+body {
+    margin: 0px;
+}
+
+.container {
+    margin: 0 8% 0 8%;
+}
+
+.apresentacao-nav {
+    background-image: url(../Exportadas/Teste2.png);
+}
+
+.apresentacao-nav_satisfacao {
+    position: relative;
+}
+
+.apresentacao-nav_texto {
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    position: relative;
+    text-align: center;
+}
+
+.apresentacao-nav_texto-fst {
+    color: #ffd96c;
+}
+
+.detalhes {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.apresentacao-modelo_img {
+    position: relative;
+}
+.detalhes {
+    position: relative;
+    color: #013b49;
+    background: #f8f8f8;
+}
+
+.detalhes-titulo {
+    position: relative;
+}
+
+.detalhes-participar_lista-primaria {
+    position: relative;
+    text-align: justify;
+}
+
+.detalhes-participar_lista-numerica {
+    position: relative;
+    padding-left: 0;
+}
+
+.detalhes-titulo_descricao {
+    text-align: justify;
+    position: relative;
+}
+
+.material-icons.amarelo {
+    color: #ffdc62;
+}
+
+@media only screen and (min-width: 480px) {
+    .apresentacao-nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        height: 440px;
+        background-repeat: repeat-y;
+    }
+
+    .apresentacao-nav_satisfacao { 
+        max-width: 60%;
+        bottom: 5%;
+    }
+
+    .apresentacao-nav_texto {
+        width: 70%;
+        bottom: 20%;
+    }
+
+    .apresentacao-modelo_img {
+        max-width: 100%;
+        right: 6%;
+        bottom: 25vh;
+    }
+
+    .detalhes {
+        height: 107vh;
+    }
+
+    .detalhes-titulo {
+        margin-bottom: -4%;
+        font-size: 1.2em;
+        bottom: 38vh;
+    }
+
+    .detalhes-titulo_descricao {
+        bottom: 37vh;
+    }
+
+    .detalhes-participar {
+        position: relative;
+        bottom: 30vh;
+    }
+
+    .detalhes-participar_titulo {
+        font-size: 1.2em;
+    }
+
+    .detalhes-participar img {
+        display: none;
+    }
+
+    .detalhes-participar_listas ul {
+        list-style-type: none;
+    }
+
+    .detalhes-participar_lista-primaria {
+        top: 2vh;
+    }
+
+    .detalhes-participar_lista-primaria li {
+        margin-bottom: 10%;
+    }
+
+    .detalhes-participar_lista-numerica {
+        bottom: 125vh;
+        width: 80%;
+    }
+
+    .detalhes-participar_lista-numerica li {
+        border: 1px solid #013b49;
+        border-radius: 100%;
+        width: 20%;
+        color: #93c21e;
+        font-size: 3em;
+        text-align: center;
+        font-weight: bold;
+        font-family: 'Oswald', sans-serif;
+        margin-bottom: 12%;
+    }
+
+    .regras-devolucao {
+        background-color: #013b49;
+        position: relative;
+        top: 155vh;
+        color: #FFF;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 0.8em;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        height: 180px;
+    }
+
+    .regras-devolucao p {
+        width: 81%;
+        height: 87px;
+        text-align: justify;
+        margin-bottom: 0px;
+    }
+
+    .btn_download-regras {
+        text-decoration: none;
+        color: #FFF;
+        background-color: #799d23;
+        width: 80%;
+        height: 32px;
+        border-radius: 5px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        text-transform: uppercase;
+        font-size: 0.8em;
+    }
+
+    .area-aparelhos {
+        position: relative;
+        top: 170vh;
+        height: 360px;
+    }
+
+    .contato-lojas {
+        position: relative;
+        top: 170vh;
+        height: 400px;
+        background-color: #013b49;
+    }
+
+    .contato-lojas_sabermais {
+        color: #FFF;
+        font-size: 1.2em;
+        text-transform: uppercase;
+        font-family: 'Oswald', sans-serif;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contato-lojas_sabermais img {
+        position: relative;
+        top: 3vh;
+    }
+
+    .contato-lojas_sabermais p {
+        text-align: center;
+        width: 60%;
+        line-height: 1.1em;
+    }
+
+    .contato-lojas_sabermais-telefone {
+        color: #fee5a2;
+        font-size: 2.7em;
+        position: relative;
+        bottom: 4vh;
+    }
+
+    .contato-lojas_local {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .contato-lojas_local-item {
+        background-color: #034456;
+        color: #FFF;
+        width: 30%;
+        height: 150px;
+        font-family: 'Oswald', sans-serif;
+        font-size: 0.7em;
+        text-align: center;
+    }
+
+    .contato-lojas_local-item b {
+        font-size: 1.6em;
+        position: relative;
+        bottom: 3.5vh;
+        text-transform: uppercase;
+    }
+
+    .contato-lojas_local-item-img {
+        background-color: #0d927f;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        left: 34%;
+        top: -4vh;
+    }
+
+    .contato-lojas_local-item-img img {
+        max-width: 50%;
+        max-height: 70%;
+    }
+
+    .contato-lojas_local-item p {
+        position: relative;
+        bottom: 4vh;
+    }
+
+    .contato-lojas_btn {
+        position: relative;
+        bottom: 1vh;
+        left: 7vh;
+        text-decoration: none;
+        color: #054455;
+        background-color: #ffe4a1;
+        width: 50%;
+        height: 22px;
+        border-radius: 5px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        text-transform: uppercase;
+        font-size: 1em;
+    }
+
+    .contato-lojas_btn.btn3 {
+        bottom: 4vh;
+    }
+
+}
+
+@media only screen and (min-width : 992px) {
+    .apresentacao-nav {
+        background-repeat: no-repeat;
+        background-size: 100%;
+        height: 209px;
+    }
+
+    .apresentacao-nav_satisfacao {
+        position: relative;
+        width: 15%;
+        left: 5%;
+    }
+
+    .apresentacao-nav_texto {
+        width: 23%;
+        bottom: 5%;
+    }
+
+    .apresentacao-modelo_img {
+        left: 32%;
+        bottom: 35vh;
+        width: 30%;
+    }
+
+    .detalhes {
+        height: 65vh;
+    }
+
+    .detalhes-titulo {
+        width: 23%;
+        text-align: right;
+        margin-bottom: 0;
+        left: 16%;
+    }
+
+    .detalhes-titulo_descricao {
+        width: 30%;
+        bottom: 58vh;
+        left: 41%;
+    }
+
+    .detalhes-participar_titulo {
+        position: relative;
+        left: 19%;
+        width: 20%;
+    }
+
+    .detalhes-participar img {
+        position: absolute;
+        top: 33vh;
+        width: 40%;
+        left: 10vh;
+    }
+
+    .detalhes-participar_listas p {
+        max-width: 100%;
+        width: 23%;
+        text-align: right;
+        padding-left: 42vh;
+        position: relative;
+        top: -3vh;
+    }
+
+    .detalhes-participar_lista-primaria {
+        bottom: 19vh;
+        top: auto;
+        left: 82vh;
+        width: 28%;
+    }
+
+    .detalhes-participar_lista-numerica {
+        width: 30%;
+        left: 91vh;
+        bottom: 125vh;
+    }
+
+    .regras-devolucao {
+        top: 139vh;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .regras-devolucao p {
+        width: 26%;
+        margin-left: 55vh;
+    }
+
+    .btn_download-regras {
+        width: 22%;
+        height: 40px;
+        border-radius: 10px;
+        margin-right: 55vh;
+        position: relative;
+        top: -2vh;
+
+    }
+
+    .contato-lojas {
+        display: flex;
+        justify-content: center;
+        height: 270px;
+    }
+}
