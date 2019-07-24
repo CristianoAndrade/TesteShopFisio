@@ -333,6 +333,7 @@ body {
 
     .detalhes-titulo_descricao {
         bottom: 37vh;
+        font-size: 1em;
     }
 
     .detalhes-participar {
@@ -342,6 +343,10 @@ body {
 
     .detalhes-participar_titulo {
         font-size: 1.2em;
+    }
+
+    .detalhes-participar_listas {
+        font-size: 1em;
     }
 
     .detalhes-participar_listas ul {
@@ -391,6 +396,7 @@ body {
         height: 87px;
         text-align: justify;
         margin-bottom: 0px;
+        font-size: 1em;
     }
 
     .btn_download-regras {
@@ -401,7 +407,7 @@ body {
         height: 32px;
         border-radius: 5px;
         display: flex;
-        justify-content: space-evenly;
+        justify-content: center;
         align-items: center;
         text-transform: uppercase;
         font-size: 0.8em;
