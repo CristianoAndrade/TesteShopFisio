@@ -84,11 +84,11 @@ body {
     .apresentacao-modelo_img {
         max-width: 100%;
         right: 6%;
-        bottom: 17vh;
+        bottom: 15vh;
     }
 
     .detalhes {
-        height: 83vh;
+        height: 68vh;
     }
 
     .detalhes-titulo {
@@ -103,7 +103,7 @@ body {
 
     .detalhes-participar {
         position: relative;
-        bottom: 17vh;
+        bottom: 14vh;
     }
 
     .detalhes-participar_listas {
@@ -123,26 +123,26 @@ body {
     }
 
     .detalhes-participar_lista-numerica {
-        bottom: 89vh;
+        bottom: 66vh;
         left: -9px;
     }
 
     .detalhes-participar_lista-numerica li {
         border: 1px solid #013b49;
         border-radius: 100%;
-        width: 19%;
+        width: 18%;
         color: #93c21e;
         font-size: 3em;
         text-align: center;
         font-weight: bold;
         font-family: 'Oswald', sans-serif;
-        margin-bottom: 10%;
+        margin-bottom: 7%;
     }
 
     .regras-devolucao {
         background-color: #013b49;
         position: relative;
-        top: 112vh;
+        top: 90vh;
         color: #FFF;
         font-family: 'Open Sans', sans-serif;
         font-size: 0.8em;
@@ -177,13 +177,13 @@ body {
 
     .area-aparelhos {
         position: relative;
-        top: 112vh;
+        top: 90vh;
         height: 360px;
     }
 
     .contato-lojas {
         position: relative;
-        top: 112vh;
+        top: 90vh;
         height: 390px;
         background-color: #013b49;
     }
@@ -271,7 +271,7 @@ body {
     .contato-lojas_btn {
         position: relative;
         bottom: 0vh;
-        left: 4vh;
+        left: 3.5vh;
         text-decoration: none;
         color: #054455;
         background-color: #ffe4a1;
@@ -286,11 +286,11 @@ body {
     }
 
     .contato-lojas_btn.btn2 {
-        bottom: 3vh;
+        bottom: 2vh;
     }
 
     .contato-lojas_btn.btn3 {
-        bottom: 3vh;
+        bottom: 2vh;
     }
 
 }
